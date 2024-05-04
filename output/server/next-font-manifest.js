@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/priyanshusingh/Documents/GitHub/Bruno/nexus-website/app/layout\":[\"static/media/88488da02fbded15-s.p.otf\",\"static/media/2c7f273bffec093e-s.p.otf\",\"static/media/454992751e72767f-s.p.otf\",\"static/media/96a43cbfc6ee7ee3-s.p.otf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
