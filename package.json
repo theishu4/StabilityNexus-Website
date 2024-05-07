@@ -1,38 +1,50 @@
 {
-  "name": "pinwheel-tailwind",
-  "version": "1.0.0",
-  "description": "pinwheel-tailwind is a free and open-source Tailwind CSS template for building modern landing pages.",
-  "author": "themefisher",
-  "license": "MIT",
+  "name": "nextjs-template",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "gulp dev",
-    "build": "gulp build",
-    "deploy": "gulp deploy",
-    "format": "prettier -w ./src",
-    "remove-darkmode": "node scripts/removeDarkMode.js && yarn format"
+    "build": "next build",
+    "dev": "next dev",
+    "format:check": "prettier --check \"**/*.{ts,tsx,mdx,json,md,css}\"",
+    "format:write": "prettier --write \"**/*.{ts,tsx,mdx,json,md,css}\"",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "prepare": "husky install",
+    "preview": "next build && next start",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "*.{jsx,js,ts,tsx}": [
+      "npm run format:write",
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "husky": "^9.0.11",
+    "lucide-react": "^0.359.0",
+    "next": "14.1.4",
+    "react": "^18",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/typography": "^0.5.9",
-    "autoprefixer": "^10.4.14",
-    "browser-sync": "^2.29.3",
-    "gulp": "^4.0.2",
-    "gulp-file-include": "^2.3.0",
-    "gulp-header-comment": "^0.10.0",
-    "gulp-jshint": "^2.1.0",
-    "gulp-postcss": "^9.0.1",
-    "gulp-rimraf": "^1.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-template": "^5.0.0",
-    "gulp-util": "^3.0.8",
-    "gulp-wrapper": "^1.0.0",
-    "jshint": "^2.13.6",
-    "jshint-stylish": "^2.2.1",
-    "postcss": "^8.4.23",
-    "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.3.0",
-    "sass": "^1.62.1",
-    "tailwind-bootstrap-grid": "^5.0.1",
-    "tailwindcss": "^3.3.2"
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.67",
+    "@typescript-eslint/parser": "^7.3.1",
+    "autoprefixer": "^10",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.1.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tailwindcss": "^3.15.1",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "tailwindcss": "^3",
+    "typescript": "^5"
   }
 }
