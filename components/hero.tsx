@@ -35,7 +35,7 @@ export default function Hero() {
               building a more stable world<br />
               through emerging technologies.
             </p>
-            /*
+            {/*
             <div className="mt-16 flex flex-wrap justify-center gap-x-6 gap-y-4">
               <Link
                 href="/research"
@@ -46,7 +46,7 @@ export default function Hero() {
                 </span>
               </Link>
             </div>
-            */
+            */}
           </div>
         </div>
       </Container>
