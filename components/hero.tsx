@@ -30,10 +30,12 @@ export default function Hero() {
               <span className="block text-primary dark:text-white">Nexus</span>
             </h1>
             <p className="mt-8 text-lg text-gray-700 dark:text-gray-300">
-              The location in semantic space for organizations
-              and individuals who are building a more stable world through
-              emerging technologies.
+              The location in semantic space<br />
+              for organizations and individuals<br />
+              building a more stable world<br />
+              through emerging technologies.
             </p>
+            /*
             <div className="mt-16 flex flex-wrap justify-center gap-x-6 gap-y-4">
               <Link
                 href="/research"
@@ -44,6 +46,7 @@ export default function Hero() {
                 </span>
               </Link>
             </div>
+            */
           </div>
         </div>
       </Container>
