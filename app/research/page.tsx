@@ -165,8 +165,7 @@ export default function ResearchPage() {
             Insights from Our Research Network
           </h2>
           <p className="text-lg leading-6 text-black opacity-80 lg:mx-auto lg:w-6/12">
-            Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt,
-            debitis dolorum officia aliquid explicabo? Excepturi, voluptate?
+            
           </p>
         </div>
         <h2 className="mb-5 text-2xl font-bold text-black underline decoration-dashed underline-offset-4">
