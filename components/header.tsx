@@ -11,7 +11,7 @@ const links = [
   },
   {
     to: "https://news.stability.nexus/",
-    label: "News",
+    label: "Articles",
   },
   {
     to: "https://docs.stability.nexus/",
