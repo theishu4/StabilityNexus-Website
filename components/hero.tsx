@@ -27,10 +27,10 @@ export default function Hero() {
             />
             <h1 className="text-5xl font-medium tracking-tighter text-black dark:text-white md:text-6xl xl:text-8xl">
               Stability
-              <span className="block text-primary dark:text-white">Nexus.</span>
+              <span className="block text-primary dark:text-white">Nexus</span>
             </h1>
             <p className="mt-8 text-lg text-gray-700 dark:text-gray-300">
-              We are the decentralized meta-organization uniting organizations
+              The location in semantic space for organizations
               and individuals who are building a more stable world through
               emerging technologies.
             </p>
