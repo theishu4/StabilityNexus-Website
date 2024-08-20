@@ -170,7 +170,7 @@ export default function Footer() {
             href="https://news.stability.nexus/"
             className="font-medium text-black hover:underline hover:decoration-primary hover:decoration-2"
           >
-            News
+            Articles
           </Link>
           <Link
             href="https://docs.stability.nexus/"
