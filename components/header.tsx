@@ -6,6 +6,10 @@ import Container from "./container"
 
 const links = [
   {
+    to: "/protocols",
+    label: "Protocols",
+  },
+  {
     to: "/research",
     label: "Research",
   },
@@ -17,6 +21,10 @@ const links = [
     to: "https://docs.stability.nexus/",
     label: "Docs",
   },
+  // {
+  //   to: "https://docs.stability.nexus/about-us/the-stable-order",
+  //   label: "About Us",
+  // },
 ]
 
 export default function Header() {

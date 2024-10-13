@@ -161,6 +161,12 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-3 md:order-1">
           <Link
+            href="/protocols"
+            className="font-medium text-black hover:underline hover:decoration-primary hover:decoration-2"
+          >
+            Protocols
+          </Link>
+          <Link
             href="/research"
             className="font-medium text-black hover:underline hover:decoration-primary hover:decoration-2"
           >
