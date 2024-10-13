@@ -101,7 +101,7 @@ export default function ProtocolsPage() {
       </Container>
       <CTA 
         heading="The Stable Order"
-        text="The Stable Order is a decentralized organization of knights and benefactors bringing stability to the world."
+        text="The Stable Order is a decentralized organization of knights and benefactors devoted to stability."
         link="https://docs.stability.nexus/about-us/the-stable-order/join-the-stable-order"
         linkText="Join the Stable Order"
       />
