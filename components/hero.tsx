@@ -26,16 +26,17 @@ export default function Hero() {
               className="mx-auto mb-4"
             />
             <h1 className="text-5xl font-medium tracking-tighter text-black dark:text-white md:text-6xl xl:text-8xl">
-              Stability
+              <span className="block text-secondary dark:text-white">Stability</span>
               <span className="block text-primary dark:text-white">Nexus</span>
             </h1>
+            {/*
             <p className="mt-8 text-lg text-gray-700 dark:text-gray-300">
               The location in semantic space<br />
               for organizations and individuals<br />
               building a more stable world<br />
               through emerging technologies.
             </p>
-            {/*
+            */}
             <div className="mt-16 flex flex-wrap justify-center gap-x-6 gap-y-4">
               <Link
                 href="/research"
@@ -46,7 +47,6 @@ export default function Hero() {
                 </span>
               </Link>
             </div>
-            */}
           </div>
         </div>
       </Container>
