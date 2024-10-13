@@ -116,6 +116,7 @@ export default function ResearchPage() {
         <div className="h-56 bg-gradient-to-r from-secondary via-info to-primary blur-[100px]"></div>
       </div>
       <Container>
+        {/*
         <div className="relative z-20 mb-12 space-y-4 text-center">
           <h2 className="text-4xl font-bold text-black md:text-4xl">
             Insights from Our Research Network
@@ -124,6 +125,7 @@ export default function ResearchPage() {
             
           </p>
         </div>
+        */}
         <h2 className="mb-5 text-2xl font-bold text-black underline decoration-dashed underline-offset-4">
           Featured Papers
         </h2>
