@@ -1,5 +1,6 @@
 import Container from "@/components/container"
-import { CallToActionResearch } from "@/components/cta"
+// import { CallToActionResearch } from "@/components/cta"
+import CTA from "@/components/cta"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -104,51 +105,6 @@ const featuredVideos = [
   },
 ]
 
-// The Gluon Stabilization Protocol
-// Bruno Woltzenlogel Paleo, PhD
-
-// 3rd Jul 2023
-
-// Formalization of Blockchain Oracles in Coq
-// Prof. Giselle Reis
-
-// 12th Jun 2023
-
-// Ideas for Improvements of the Djed Stablecoin Protocol
-// Bruno Woltzenlogel Paleo, PhD
-
-// 11th Aug 2022
-
-// BGIN Stablecoin Panel
-// Djed Alliance and Circle (USDC)
-
-// 2nd Aug 2022
-
-// Djed Stablecoin on Cardano
-// David (IOG)
-
-// 27th Oct 2021
-
-// Overview of SigmaUSD's Smart Contracts
-// Amitabh Saxeena
-
-// 23rd Jan 2021
-
-// The Release of Agenor
-// Robert Kornacki
-
-// 23rd Jan 2021
-
-// A Pegged and Crypto-backed Algorithmic Stablecoin
-// Bruno Woltzenlogel Paleo, PhD
-
-// 23rd Jan 2021
-
-// The Djed Stablecoin Protocol
-// Djed Alliance
-
-// 13th Jul 2023
-
 export default function ResearchPage() {
   return (
     <div className="relative pt-36">
@@ -252,7 +208,7 @@ export default function ResearchPage() {
                 </p>
               </div>
               <Link
-                href="#"
+                href="https://docs.stability.nexus/stability-research-network/technical-papers"
                 className="relative flex items-center justify-center px-3 py-1 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-secondary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
               >
                 <span className="relative text-base font-medium text-black">
@@ -350,7 +306,14 @@ export default function ResearchPage() {
           ))}
         </div>
       </Container>
-      <CallToActionResearch />
+      <CTA 
+        heading="The Stability Research Network"
+        text="The Stability Research Network (SRN) is the global network for
+            researchers with a common interest on topics related to
+            stability."
+        link="https://discord.gg/RYarrEN2yB"
+        linkText="Connect With The SRN"
+      />
     </div>
   )
 }
