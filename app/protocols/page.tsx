@@ -41,6 +41,7 @@ export default function ProtocolsPage() {
         <div className="h-56 bg-gradient-to-r from-secondary via-info to-primary blur-[100px]"></div>
       </div>
       <Container>
+        {/*
         <div className="relative z-20 mb-12 space-y-4 text-center">
           <h2 className="text-4xl font-bold text-black md:text-4xl">
             Protocols <br /> Researched and Developed <br /> by The Stable Order
@@ -49,7 +50,8 @@ export default function ProtocolsPage() {
             
           </p>
         </div>
-         {/*
+        */}
+        {/*
         <h2 className="mb-5 text-2xl font-bold text-black underline decoration-dashed underline-offset-4">
           Protocols
         </h2>
@@ -101,7 +103,7 @@ export default function ProtocolsPage() {
       </Container>
       <CTA 
         heading="The Stable Order"
-        text="The Stable Order is a decentralized organization of knights and benefactors devoted to stability."
+        text="The Stable Order is an open and decentralized organization of mutually cooperative knights and benefactors. Its primary activity is the research and development of novel protocols that stabilitize the decentralized economy. If you share our goals and would like to work together or support us, get in touch."
         link="https://docs.stability.nexus/about-us/the-stable-order/join-the-stable-order"
         linkText="Join the Stable Order"
       />
