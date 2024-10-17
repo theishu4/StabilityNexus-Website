@@ -1,12 +1,11 @@
 import Container from "@/components/container"
 import CTA from "@/components/cta"
-import Image from "next/image"
-import Link from "next/link"
+import Card from "@/components/card"
 
 const protocols = [
   {
     title: "Djed",
-    description: `Stablecoin Protocol`,
+    description: "Stablecoin Protocol",
     image: "./logos/djed.png",
     link: "https://djed.one",
   },
@@ -58,46 +57,13 @@ export default function ProtocolsPage() {
         */}
         <div className="mb-20 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {protocols.map((protocol, index) => (
-            <div
-              key={index}
-              className="group relative flex h-auto flex-col justify-evenly rounded-lg border border-zinc-200 p-6 shadow-xl"
-            >
-              <div className="relative h-fit overflow-hidden rounded-md">
-                <Image
-                  src={protocol.image}
-                  alt="Protocol Logo"
-                  loading="lazy"
-                  width="700"
-                  height="700"
-                  className="h-64 w-full object-contain transition duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="relative mt-4 h-fit">
-                <h3 className="text-2xl  font-semibold leading-6 tracking-tight text-gray-800 text-center">
-                  {protocol.title}
-                </h3>
-                <p className="mb-6 mt-2 text-black text-center">
-                  {protocol.description.split("\n").map((item, key) => {
-                    return (
-                      <span key={key}>
-                        {item}
-                        <br />
-                      </span>
-                    )
-                  })}
-                </p>
-              </div>
-              <div className="flex items-center justify-center text-center">
-                <Link
-                  href={protocol.link}
-                  className="relative flex items-center justify-center px-3 py-1 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-secondary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                >
-                  <span className="relative text-base font-medium text-black">
-                    Learn more
-                  </span>
-                </Link>
-              </div>
-            </div>
+            <Card 
+              index={index}
+              image={protocol.image}
+              title={protocol.title}
+              description={protocol.description}
+              link={protocol.link}
+            />
           ))}
         </div>
       </Container>
