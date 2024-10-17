@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="h-56 bg-gradient-to-r from-secondary via-info to-primary blur-[100px]"></div>
       </div>
       <Container>
-        <div className="relative ml-auto pt-36">
+        <div className="relative ml-auto pt-12">
           <div className="mx-auto text-center lg:w-2/3">
             <Image
               unoptimized

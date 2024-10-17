@@ -43,7 +43,7 @@ const blockchains = [
 
 export default function BlockchainsPage() {
   return (
-    <div className="relative pt-36">
+    <div className="relative pt-12">
       <div
         aria-hidden="true"
         className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40"
