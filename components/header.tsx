@@ -6,6 +6,10 @@ import Container from "./container"
 
 const links = [
   {
+    to: "/blockchains",
+    label: "Blockchains",
+  },
+  {
     to: "/protocols",
     label: "Protocols",
   },
