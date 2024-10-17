@@ -97,6 +97,7 @@ export default function Footer() {
   return (
     <footer className="p-10">
       <div className="flex items-center justify-between">
+        {/*
         <Image
           unoptimized
           fetchPriority="high"
@@ -106,6 +107,7 @@ export default function Footer() {
           height={65}
           width={65}
         />
+        */}
         <div className="flex items-center space-x-4 md:order-2">
           {navigation.map((item) => (
             <Link
