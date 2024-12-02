@@ -1,13 +1,13 @@
 import Link from "next/link"
 
 interface Props {
-  heading: string;
-  text: string;
-  link: string;
-  linkText: string;
+  heading: string
+  text: string
+  link: string
+  linkText: string
 }
 
-const CTA: React.FC<Props> = ( { heading, text, link, linkText } ) => {
+const CTA: React.FC<Props> = ({ heading, text, link, linkText }) => {
   return (
     <section className="mt-20 bg-gradient-to-t from-primary via-info to-secondary">
       <div className="mx-auto w-full max-w-7xl items-center px-8 py-10 md:px-12 lg:px-24 lg:py-28">
@@ -15,9 +15,7 @@ const CTA: React.FC<Props> = ( { heading, text, link, linkText } ) => {
           <p className="mt-4 text-4xl font-medium tracking-tighter lg:text-7xl">
             {heading}
           </p>
-          <p className="mx-auto mt-4 max-w-xl text-lg">
-            {text}
-          </p>
+          <p className="mx-auto mt-4 max-w-xl text-lg">{text}</p>
           <div className="mt-10 flex w-full justify-center">
             <Link
               href={link}
@@ -32,6 +30,6 @@ const CTA: React.FC<Props> = ( { heading, text, link, linkText } ) => {
       </div>
     </section>
   )
-};
+}
 
-export default CTA;
+export default CTA
