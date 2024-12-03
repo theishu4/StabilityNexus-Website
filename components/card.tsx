@@ -1,15 +1,15 @@
-import Link from "next/link"
 import Image from "next/image"
+import Link from "next/link"
 
 interface Props {
-  index: number;
-  image: string;
-  title: string;
-  description: string;
-  link: string;
+  index: number
+  image: string
+  title: string
+  description: string
+  link: string
 }
 
-const Card: React.FC<Props> = ( { index, image, title, description, link } ) => {
+const Card: React.FC<Props> = ({ index, image, title, description, link }) => {
   return (
     <div
       key={index}
@@ -26,10 +26,10 @@ const Card: React.FC<Props> = ( { index, image, title, description, link } ) => 
         />
       </div>
       <div className="relative mt-4 h-fit">
-        <h3 className="text-2xl  font-semibold leading-6 tracking-tight text-gray-800 text-center">
+        <h3 className="text-center  text-2xl font-semibold leading-6 tracking-tight text-gray-800">
           {title}
         </h3>
-        <p className="mb-6 mt-2 text-black text-center">
+        <p className="mb-6 mt-2 text-center text-black">
           {description.split("\n").map((item, key) => {
             return (
               <span key={key}>
@@ -52,6 +52,6 @@ const Card: React.FC<Props> = ( { index, image, title, description, link } ) => 
       </div>
     </div>
   )
-};
+}
 
-export default Card;
+export default Card

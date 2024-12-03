@@ -26,7 +26,9 @@ export default function Hero() {
               className="mx-auto mb-4"
             />
             <h1 className="text-5xl font-medium tracking-tighter text-black dark:text-white md:text-6xl xl:text-8xl">
-              <span className="block text-secondary dark:text-white">Stability</span>
+              <span className="block text-secondary dark:text-white">
+                Stability
+              </span>
               <span className="block text-primary dark:text-white">Nexus</span>
             </h1>
             {/*

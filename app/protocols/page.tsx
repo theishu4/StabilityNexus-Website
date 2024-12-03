@@ -1,6 +1,6 @@
+import Card from "@/components/card"
 import Container from "@/components/container"
 import CTA from "@/components/cta"
-import Card from "@/components/card"
 
 const protocols = [
   {
@@ -26,7 +26,7 @@ const protocols = [
     description: "Prediction Pools",
     image: "./logos/destiny.png",
     link: "https://forecast.bid",
-  }
+  },
 ]
 
 export default function ProtocolsPage() {
@@ -57,7 +57,7 @@ export default function ProtocolsPage() {
         */}
         <div className="mb-20 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {protocols.map((protocol, index) => (
-            <Card 
+            <Card
               index={index}
               image={protocol.image}
               title={protocol.title}
@@ -67,7 +67,7 @@ export default function ProtocolsPage() {
           ))}
         </div>
       </Container>
-      <CTA 
+      <CTA
         heading="The Stable Order"
         text="The Stable Order is an open and decentralized organization of mutually cooperative knights and benefactors. Its primary activity is the research and development of novel protocols that stabilitize the decentralized economy. If you share our goals and would like to work together or support us, get in touch."
         link="https://docs.stability.nexus/about-us/the-stable-order/join-the-stable-order"

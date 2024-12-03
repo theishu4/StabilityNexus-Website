@@ -1,6 +1,6 @@
+import Card from "@/components/card"
 import Container from "@/components/container"
 import CTA from "@/components/cta"
-import Card from "@/components/card"
 
 const blockchains = [
   {
@@ -38,7 +38,7 @@ const blockchains = [
     description: "",
     image: "./blockchains/sui.svg",
     link: "https://sui.io/",
-  }
+  },
 ]
 
 export default function BlockchainsPage() {
@@ -54,7 +54,7 @@ export default function BlockchainsPage() {
       <Container>
         <div className="mb-20 grid gap-8 md:grid-cols-3 lg:grid-cols-6">
           {blockchains.map((item, index) => (
-            <Card 
+            <Card
               index={index}
               image={item.image}
               title={item.title}
@@ -64,7 +64,7 @@ export default function BlockchainsPage() {
           ))}
         </div>
       </Container>
-      <CTA 
+      <CTA
         heading="Support Us"
         text="Entities associated with the blockchains listed above have been supporting the work of The Stable Order 
         through benefactions, grants, prizes, awards and sponsorhips. 

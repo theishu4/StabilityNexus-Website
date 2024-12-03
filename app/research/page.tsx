@@ -133,19 +133,18 @@ export default function ResearchPage() {
           {featuredPapers.map((paper, index) => (
             <div
               key={index}
-              className="group relative flex h-full flex-col justify-evenly rounded-lg border border-zinc-200 p-6 shadow-xl"
+              className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-6 shadow-xl"
             >
-              <div className="relative h-fit overflow-hidden rounded-md">
+              <div className="relative aspect-video w-full overflow-hidden rounded-md">
                 <Image
                   src={paper.image}
                   alt="Research paper cover"
-                  loading="lazy"
-                  width="1000"
-                  height="667"
-                  className="h-64 w-full transition duration-500 group-hover:scale-105"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover transition duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="relative mt-4 h-fit">
+              <div className="relative mt-4 grow">
                 <h3 className="text-2xl  font-semibold leading-6 tracking-tight text-gray-800">
                   {paper.title}
                 </h3>
@@ -198,7 +197,7 @@ export default function ResearchPage() {
                     {paper.date}
                   </span>
                 </div>
-                <p className="mb-6 mt-2 text-black">
+                <p className="text-black">
                   {paper.description.split("\n").map((item, key) => {
                     return (
                       <span key={key}>
@@ -211,7 +210,7 @@ export default function ResearchPage() {
               </div>
               <Link
                 href="https://docs.stability.nexus/stability-research-network/technical-papers"
-                className="relative flex items-center justify-center px-3 py-1 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-secondary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                className="relative mt-4 flex items-center justify-center px-3 py-1 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-secondary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
               >
                 <span className="relative text-base font-medium text-black">
                   Learn more
@@ -227,19 +226,18 @@ export default function ResearchPage() {
           {featuredVideos.map((video, index) => (
             <div
               key={index}
-              className="group relative flex h-full flex-col justify-evenly rounded-lg border border-zinc-200 p-6 shadow-xl"
+              className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-6 shadow-xl"
             >
-              <div className="relative h-fit overflow-hidden rounded-md">
+              <div className="relative aspect-video w-full overflow-hidden rounded-md">
                 <Image
                   src={video.image}
                   alt="Research video cover"
-                  loading="lazy"
-                  width="1000"
-                  height="667"
-                  className="h-64 w-full transition duration-500 group-hover:scale-105"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover transition duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="relative mt-2 h-fit">
+              <div className="relative mt-2 grow">
                 <h3 className="text-2xl  font-semibold leading-6 tracking-tight text-gray-800">
                   {video.title}
                 </h3>
@@ -294,7 +292,7 @@ export default function ResearchPage() {
                     {video.date}
                   </span>
                 </div>
-                <p className=" text-black">{video.description}</p>
+                <p className="text-black">{video.description}</p>
               </div>
               {/* <Link
                 href="#"
@@ -308,7 +306,7 @@ export default function ResearchPage() {
           ))}
         </div>
       </Container>
-      <CTA 
+      <CTA
         heading="The Stability Research Network"
         text="The Stability Research Network (SRN) is the global network for
             researchers with a common interest on topics related to
