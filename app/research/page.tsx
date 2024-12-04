@@ -252,7 +252,7 @@ export default function ResearchPage() {
                 <h3 className="text-2xl  font-semibold leading-6 tracking-tight text-gray-800">
                   {video.title}
                 </h3>
-                <div className="my-3 flex w-fit items-center gap-2 rounded-md bg-zinc-100 p-2">
+                {/* <div className="my-3 flex w-fit items-center gap-2 rounded-md bg-zinc-100 p-2">
                   <svg
                     viewBox="0 0 24 24"
                     height={20}
@@ -302,8 +302,8 @@ export default function ResearchPage() {
                   <span className="text-sm font-medium text-black">
                     {video.date}
                   </span>
-                </div>
-                <p className="text-black">{video.description}</p>
+                </div> */}
+                <p className="mt-2 text-black">{video.description}</p>
               </div>
               {/* <Link
                 href="#"
