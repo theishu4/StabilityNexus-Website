@@ -122,7 +122,7 @@ export default function ResearchPage() {
             Insights from Our Research Network
           </h2>
           <p className="text-lg leading-6 text-black opacity-80 lg:mx-auto lg:w-6/12">
-            
+
           </p>
         </div>
         */}
@@ -131,24 +131,34 @@ export default function ResearchPage() {
         </h2>
         <div className="mb-20 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {featuredPapers.map((paper, index) => (
-            <div
+            <Link
+              href={
+                "https://docs.stability.nexus/stability-research-network/technical-papers"
+              }
               key={index}
-              className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-6 shadow-xl"
+              className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-4 shadow-xl sm:p-6"
             >
-              <div className="relative aspect-video w-full overflow-hidden rounded-md">
+              {/* <div
+              key={index}
+              className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-4 shadow-xl sm:p-6"
+            > */}
+              <div
+                className="relative w-full overflow-hidden rounded-md"
+                style={{ aspectRatio: "3/4" }}
+              >
                 <Image
                   src={paper.image}
                   alt="Research paper cover"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="object-cover transition duration-500 group-hover:scale-105"
+                  className="object-contain transition duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="relative mt-4 grow">
-                <h3 className="text-2xl  font-semibold leading-6 tracking-tight text-gray-800">
+              <div className="relative mt-2 grow sm:mt-4">
+                <h3 className="text-2xl font-semibold leading-6 tracking-tight text-gray-800">
                   {paper.title}
                 </h3>
-                <div className="my-3 flex w-fit items-center gap-2 rounded-md bg-zinc-100 p-2">
+                {/* <div className="my-3 flex w-fit items-center gap-2 rounded-md bg-zinc-100 p-2">
                   <svg
                     viewBox="0 0 24 24"
                     height={20}
@@ -196,8 +206,8 @@ export default function ResearchPage() {
                   <span className="text-sm font-medium text-black">
                     {paper.date}
                   </span>
-                </div>
-                <p className="text-black">
+                </div> */}
+                <p className="mt-2 text-black">
                   {paper.description.split("\n").map((item, key) => {
                     return (
                       <span key={key}>
@@ -208,15 +218,16 @@ export default function ResearchPage() {
                   })}
                 </p>
               </div>
-              <Link
+              {/* <Link
                 href="https://docs.stability.nexus/stability-research-network/technical-papers"
                 className="relative mt-4 flex items-center justify-center px-3 py-1 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-secondary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
               >
                 <span className="relative text-base font-medium text-black">
                   Learn more
                 </span>
-              </Link>
-            </div>
+              </Link> */}
+              {/* </div> */}
+            </Link>
           ))}
         </div>
         <h2 className="mb-5 mt-10 text-2xl font-bold text-black underline decoration-dashed underline-offset-4">
