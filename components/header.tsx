@@ -39,7 +39,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
+    setIsOpen((currentState) => !currentState)
   }
 
   return (
@@ -51,7 +51,7 @@ export default function Header() {
             <Link
               href="/"
               aria-label="logo"
-              className="flex items-center space-x-2"
+              className="flex items-center justify-center space-x-2"
             >
               <Image
                 unoptimized
@@ -115,7 +115,7 @@ export default function Header() {
           <Link
             href={link.to}
             onClick={toggleMenu}
-            className={`block w-full py-2 text-right font-medium transition hover:text-primary dark:hover:text-white md:px-4 ${path === link.to && "font-semibold underline underline-offset-4"}`}
+            className={`block w-full mr-6 py-2 text-right font-medium transition hover:text-primary dark:hover:text-white md:px-4 ${path === link.to && "font-semibold underline underline-offset-4"}`}
           >
             <span>{link.label}</span>
           </Link>
