@@ -39,13 +39,13 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
-    setIsOpen((currentState) => !currentState)
+    setIsOpen(!isOpen)
   }
 
   return (
     <nav className="z-10 mt-5 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent">
-      <Container>
-        <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4">
+      <Container className="md:!px-6">
+        <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0">
           <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
             {/* Logo */}
             <Link
