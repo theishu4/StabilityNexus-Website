@@ -44,14 +44,14 @@ export default function Header() {
 
   return (
     <nav className="z-10 mt-5 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent">
-      <Container>
-        <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0 md:py-4">
+      <Container className="md:!px-6">
+        <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 md:gap-0">
           <div className="relative z-20 flex w-full justify-between md:px-0 lg:w-max">
             {/* Logo */}
             <Link
               href="/"
               aria-label="logo"
-              className="flex items-center space-x-2"
+              className="flex items-center justify-center space-x-2"
             >
               <Image
                 unoptimized
@@ -115,7 +115,7 @@ export default function Header() {
           <Link
             href={link.to}
             onClick={toggleMenu}
-            className={`block w-full py-2 text-right font-medium transition hover:text-primary dark:hover:text-white md:px-4 ${path === link.to && "font-semibold underline underline-offset-4"}`}
+            className={`block w-full mr-6 py-2 text-right font-medium transition hover:text-primary dark:hover:text-white md:px-4 ${path === link.to && "font-semibold underline underline-offset-4"}`}
           >
             <span>{link.label}</span>
           </Link>
