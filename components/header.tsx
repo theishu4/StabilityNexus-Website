@@ -39,7 +39,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
+    setIsOpen(currState => !currState);
   }
 
   return (
@@ -114,6 +114,7 @@ export default function Header() {
         {links.map((link, index) => (
           <Link
             href={link.to}
+            key={index}
             onClick={toggleMenu}
             className={`block w-full mr-6 py-2 text-right font-medium transition hover:text-primary dark:hover:text-white md:px-4 ${path === link.to && "font-semibold underline underline-offset-4"}`}
           >

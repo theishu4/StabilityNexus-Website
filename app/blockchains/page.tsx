@@ -67,7 +67,7 @@ export default function BlockchainsPage() {
       <CTA
         heading="Support Us"
         text="Entities associated with the blockchains listed above have been supporting the work of The Stable Order 
-        through benefactions, grants, prizes, awards and sponsorhips. 
+        through benefactions, grants, prizes, awards and sponsorships. 
         We are grateful for their support, which allowed us to complete numerous funded projects. If you care about stability, support us too."
         link="https://docs.stability.nexus/about-us/fund-us"
         linkText="Fund Us"
