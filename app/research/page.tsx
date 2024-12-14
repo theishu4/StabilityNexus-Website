@@ -132,16 +132,10 @@ export default function ResearchPage() {
         <div className="mb-20 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {featuredPapers.map((paper, index) => (
             <Link
-              href={
-                "https://docs.stability.nexus/stability-research-network/technical-papers"
-              }
+              href={"https://docs.stability.nexus/stability-research-network/technical-papers"}
               key={index}
               className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-4 shadow-xl sm:p-6"
             >
-              {/* <div
-              key={index}
-              className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-4 shadow-xl sm:p-6"
-            > */}
               <div
                 className="relative w-full overflow-hidden rounded-md"
                 style={{ aspectRatio: "3/4" }}
@@ -218,15 +212,6 @@ export default function ResearchPage() {
                   })}
                 </p>
               </div>
-              {/* <Link
-                href="https://docs.stability.nexus/stability-research-network/technical-papers"
-                className="relative mt-4 flex items-center justify-center px-3 py-1 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-secondary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-              >
-                <span className="relative text-base font-medium text-black">
-                  Learn more
-                </span>
-              </Link> */}
-              {/* </div> */}
             </Link>
           ))}
         </div>
@@ -235,7 +220,8 @@ export default function ResearchPage() {
         </h2>
         <div className="mb-20 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {featuredVideos.map((video, index) => (
-            <div
+            <Link
+              href={"https://docs.stability.nexus/stability-research-network/presentations"}
               key={index}
               className="group relative flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-6 shadow-xl"
             >
@@ -305,15 +291,7 @@ export default function ResearchPage() {
                 </div> */}
                 <p className="mt-2 text-black">{video.description}</p>
               </div>
-              {/* <Link
-                href="#"
-                className="relative flex items-center justify-center px-3 py-1 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-secondary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-              >
-                <span className="relative text-base font-medium text-black">
-                  Watch now
-                </span>
-              </Link> */}
-            </div>
+            </Link>
           ))}
         </div>
       </Container>
