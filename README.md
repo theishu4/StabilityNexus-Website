@@ -46,7 +46,8 @@
 <!-- Project core values and objective -->
 <p align="center">
   <strong>
-  The Stability Nexus is an ecosystem for people who care about a more stable world. It is the location in semantic space for all about stability.
+  The Stability Nexus is an ecosystem for people who care about a more stable world. <br />
+  It is the location in semantic space for all about stability.
   </strong>
 </p>
 
