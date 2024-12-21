@@ -42,8 +42,13 @@
   <img src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000" alt="Youtube Badge"></a>
 </p>
 
+&nbsp;
 <!-- Project core values and objective -->
-**The Stability Nexus is an ecosystem for people who care about a more stable world. It is the location in semantic space for all about stability.**
+<p align="center">
+  <strong>
+  The Stability Nexus is an ecosystem for people who care about a more stable world. It is the location in semantic space for all about stability.
+  </strong>
+</p>
 
 ---
 
