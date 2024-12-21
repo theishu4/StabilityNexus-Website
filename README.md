@@ -43,13 +43,7 @@
 </p>
 
 <!-- Project core values and objective -->
-<blockquote align="center">
-  <div>&nbsp;</div>
-  <strong>
-  <em>The Stability Nexus is a region, not in geographic space like a typical nation, but in semantic space.</em>
-  </strong>
-  <div>&nbsp;</div>
-</blockquote>
+**The Stability Nexus is an ecosystem for people who care about a more stable world. It is the location in semantic space for all about stability.**
 
 ---
 
