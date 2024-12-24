@@ -1,46 +1,38 @@
 <!-- Don't delete it -->
 <div name="readme-top"></div>
 
+<!-- Badge Variables -->
+[telegram-badge]: https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&logoSize=auto&color=24A1DE
+[twitter-badge]: https://img.shields.io/twitter/follow/StabilityNexus
+[discord-badge]: https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&logoSize=auto&label=Discord&labelColor=5865F2&color=57F287
+[medium-badge]: https://img.shields.io/badge/Medium-black?style=flat&logo=medium&logoColor=black&logoSize=auto&color=white
+[linkedin-badge]: https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&logoColor=white&logoSize=auto&color=0A66C2
+[youtube-badge]: https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000
+
+<!-- Link Variables -->
+[telegram-link]: https://t.me/StabilityNexus
+[twitter-link]: https://x.com/StabilityNexus
+[discord-link]: https://discord.gg/YzDKeEfWtS
+[medium-link]: https://news.stability.nexus/
+[linkedin-link]: https://linkedin.com/company/stability-nexus
+[youtube-link]: https://www.youtube.com/@StabilityNexus
+
 <!-- Organization Logo -->
 <div align="center">
   <img alt="Stability Nexus" src="public/readme-assets/logo.png" width="175">
-</div>
-
+  
 &nbsp;
-
+  
 <!-- Organization Name -->
-<div align="center">
-
-[![Static Badge](https://img.shields.io/badge/Stability-Nexus-228B22?style=for-the-badge&labelColor=FFC517)](https://stability.nexus/)
-
-</div>
+[![Static Badge](https://img.shields.io/badge/Stability-Nexus-228B22?style=for-the-badge&labelColor=FFC517)](https://stability.nexus/)  
 
 <!-- Organization/Project Social Handles -->
-<p align="center">
-<!-- Telegram -->
-<a href="https://t.me/StabilityNexus">
-<img src="https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&logoSize=auto&color=24A1DE" alt="Telegram Badge"/></a>
-&nbsp;&nbsp;
-<!-- X (formerly Twitter) -->
-<a href="https://x.com/StabilityNexus">
-<img src="https://img.shields.io/twitter/follow/StabilityNexus" alt="X (formerly Twitter) Badge"/></a>
-&nbsp;&nbsp;
-<!-- Discord -->
-<a href="https://discord.gg/YzDKeEfWtS">
-<img src="https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&logoSize=auto&label=Discord&labelColor=5865F2&color=57F287" alt="Discord Badge"/></a>
-&nbsp;&nbsp;
-<!-- Medium -->
-<a href="https://news.stability.nexus/">
-  <img src="https://img.shields.io/badge/Medium-black?style=flat&logo=medium&logoColor=black&logoSize=auto&color=white" alt="Medium Badge"></a>
-&nbsp;&nbsp;
-<!-- LinkedIn -->
-<a href="https://linkedin.com/company/stability-nexus">
-  <img src="https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&logoColor=white&logoSize=auto&color=0A66C2" alt="LinkedIn Badge"></a>
-&nbsp;&nbsp;
-<!-- Youtube -->
-<a href="https://www.youtube.com/@StabilityNexus">
-  <img src="https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000" alt="Youtube Badge"></a>
-</p>
+[![Telegram Badge][telegram-badge]][telegram-link]&nbsp;&nbsp;
+[![X (formerly Twitter) Badge][twitter-badge]][twitter-link]&nbsp;&nbsp;
+[![Discord Badge][discord-badge]][discord-link]&nbsp;&nbsp;
+[![Medium Badge][medium-badge]][medium-link]&nbsp;&nbsp;
+[![LinkedIn Badge][linkedin-badge]][linkedin-link]&nbsp;&nbsp;
+[![Youtube Badge][youtube-badge]][youtube-link]
 
 &nbsp;
 <!-- Project core values and objective -->
@@ -50,6 +42,7 @@
   It is the location in semantic space for all about stability.
   </strong>
 </p>
+</div>
 
 ---
 
