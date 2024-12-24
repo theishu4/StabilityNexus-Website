@@ -1,20 +1,28 @@
 <!-- Don't delete it -->
 <div name="readme-top"></div>
 
-<!-- Badge Variables -->
+<!-- Telegram Badge (Change Link)-->
 [telegram-badge]: https://img.shields.io/badge/Telegram-black?style=flat&logo=telegram&logoColor=white&logoSize=auto&color=24A1DE
-[twitter-badge]: https://img.shields.io/twitter/follow/StabilityNexus
-[discord-badge]: https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&logoSize=auto&label=Discord&labelColor=5865F2&color=57F287
-[medium-badge]: https://img.shields.io/badge/Medium-black?style=flat&logo=medium&logoColor=black&logoSize=auto&color=white
-[linkedin-badge]: https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&logoColor=white&logoSize=auto&color=0A66C2
-[youtube-badge]: https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000
-
-<!-- Link Variables -->
 [telegram-link]: https://t.me/StabilityNexus
+
+<!-- X (formerly Twitter) Badge (Change Both)-->
+[twitter-badge]: https://img.shields.io/twitter/follow/StabilityNexus
 [twitter-link]: https://x.com/StabilityNexus
+
+<!-- Discord Badge (Change Both + Discord Permission) -->
+[discord-badge]: https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&logoSize=auto&label=Discord&labelColor=5865F2&color=57F287
 [discord-link]: https://discord.gg/YzDKeEfWtS
+
+<!-- Medium Badge (Change Link)-->
+[medium-badge]: https://img.shields.io/badge/Medium-black?style=flat&logo=medium&logoColor=black&logoSize=auto&color=white
 [medium-link]: https://news.stability.nexus/
+
+<!-- LinkedIn Badge (Change Link)-->
+[linkedin-badge]: https://img.shields.io/badge/LinkedIn-black?style=flat&logo=LinkedIn&logoColor=white&logoSize=auto&color=0A66C2
 [linkedin-link]: https://linkedin.com/company/stability-nexus
+
+<!-- Youtube Badge (Change Both)-->
+[youtube-badge]: https://img.shields.io/youtube/channel/subscribers/UCZOG4YhFQdlGaLugr_e5BKw?style=flat&logo=youtube&logoColor=white&logoSize=auto&labelColor=FF0000&color=FF0000
 [youtube-link]: https://www.youtube.com/@StabilityNexus
 
 <!-- Organization Logo -->
